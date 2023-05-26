@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 # ==================== CountVectorizer ====================
 
 '''
-CountVectorizer is used to convert a collection of text documents to a vector of term/token counts. 
+CountVectorizer is used to convert a collection of text documents to a vector of term/token counts and to calculate the frequency of each word in a document.
 '''
 
 # initialize CountVectorizer

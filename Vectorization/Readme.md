@@ -27,3 +27,8 @@ Vector for Python:  [0,0,0,0,0,1]
 ### - Disadvantages of One-hot Encoding:
 1. #### the Size of the vector is equal to the count of unique words in the vocabulary.
 2. #### One-hot encoding does not capture the relationships between different words. Therefore, it does not convey information about the context.
+
+## Count Vectorizer:
+1. ### It is one of the simplest ways of doing text vectorization.
+2. ### It creates a document term matrix, which is a set of dummy variables that indicates if a particular word appears in the document.
+3. ### Count vectorizer will fit and learn the word vocabulary and try to create a document term matrix in which the individual cells denote the frequency of that word in a particular document, which is also known as term frequency, and the columns are dedicated to each word in the corpus.
