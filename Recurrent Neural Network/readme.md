@@ -15,7 +15,14 @@
 
 - ## What is a Recurrent Neural Network?
 ### is a special category of neural networks that allows information to flow in both directions. An RNN has short-term memory that enables it to factor previous input when producing output. The short-term memory allows the network to retain past information and, hence, uncover relationships between data points that are far from each other. RNNs are great for handling time series and sequence data such as audio and text.
+<br />
 
+### We use Tanh activation function in RNN but not Sigmoid because: 
+- ### __Range of Output:__ The sigmoid function squashes the input values between 0 and 1, which can limit the range of the output values. On the other hand, the tanh function maps the input values to the range of -1 to 1, which provides a stronger gradient flow during backpropagation. This allows the RNN to capture and propagate information more effectively through time, especially when dealing with long sequences or complex patterns.
+
+- ### __Symmetry:__: The tanh function is symmetric around the origin, meaning that it has equal positive and negative output values. This symmetry can be beneficial for RNNs because it allows them to capture both positive and negative correlations in the data. In contrast, the sigmoid function is not symmetric and can lead to biased representations of the input.
+
+### - Overall, the tanh function is a better choice than the sigmoid function for RNNs because it provides a stronger gradient flow and captures both positive and negative correlations in the data.
 <br />
 
 ![2](images/2.png)
