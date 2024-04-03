@@ -49,6 +49,9 @@
 
 ![5](images/5.png)
 
+![5](images/51.png)
+![5](images/52.png)
+
 <br />
 
 - ## Defferent Types of RNN:
@@ -189,3 +192,5 @@ Outputs from the LSTM cell are Ht (current hidden state ) and Ct (current memory
 <br />
 
 ![14](images/14.png)
+
+![15](images/15.png)
